@@ -18,9 +18,8 @@
 //     mapping(address => uint256[]) private _addressToIds;
 
 //     //return metadata
-//     function _tokenURI(uint256 _tokenId) public pure returns(string memory){
+//     function tokenURI(uint256 _tokenId) public view virtual override returns (string memory) {
 
-        
 //         bytes memory json = abi.encodePacked(
 //             '{',
 //                 '"name": "MintPage #',
